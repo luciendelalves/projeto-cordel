@@ -2,15 +2,12 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 
-  @font-face {
-    font-family: 'EldesCordel-Demo';
-    src: url('/exercícios/desafios/desafio012/fonte/EldesCordel-Demo.otf') format("opentype");
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap');
 
   :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Ubuntu';
-    --fonte3: 'EldesCordel-Demo';
+    --fonte3: 'Londrina Solid';
    
   }
 
@@ -33,9 +30,9 @@ header {
 
 header > h1 {
     padding-top: 50px;
-    font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 7vw;
+    font-weight: lighter;
+    font-size: 8vw;
 }
 
 header > p {
